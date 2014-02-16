@@ -8,6 +8,12 @@ FacebookPageFollowPlus.js
 拡張はHTML5でのpluginコードのみに対応しています。
 
 
+機能
+----
+* フォローボタン押下後、自動で別のページへ遷移
+* 既にフォロー済みの場合に別のHTMLタグを表示
+
+
 利用方法
 ----
 まずは、下記をみてpluginコードを生成し,ページへ配置します。
@@ -31,7 +37,7 @@ https://developers.facebook.com/docs/plugins/follow-button
 
 `data-followed-element-id="すでにフォロー済みの場合に出したいHTMLタグのid"`
 
-すでにフォロー済みの場合plugin以外のタグを表示するようdisplay:noneで調整します
+すでにフォロー済みの場合plugin以外のタグを表示します。(optional)
 
 `data-followed-jump-href="フォロー完了後に遷移したいURL"`
 
