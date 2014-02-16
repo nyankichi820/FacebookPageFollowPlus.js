@@ -14,9 +14,9 @@ FacebookPageFollowPlus.js
 https://developers.facebook.com/docs/plugins/follow-button
 
 加えて、pluginのjsも同ページから読み込んでおきます.
-`
+```HTML
 <script type="text/javascript" src="facebook_page_follow_plus.js"></script>
-`
+```
 
 例えば例として以下のような、タグを配置するとします
 ```HTML
